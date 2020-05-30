@@ -47,7 +47,7 @@ for (let j = 1;j < n;j++) {
     do {
       sleep(200)
     } while ((textContains('7').find().size() == 0) && (textContains('S').find().size() == 0))
-    sleep(8888)
+    sleep(12888)
     log('完成第 ' + time + ' 次浏览')
     // 返回
     back()
